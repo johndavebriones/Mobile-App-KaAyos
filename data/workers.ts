@@ -1,0 +1,138 @@
+export interface Worker {
+  id: string;
+  name: string;
+  avatar?: string;
+  rating: number;
+  reviewCount: number;
+  verified: boolean;
+  skills: string[];
+  experience: string;
+  serviceArea: string;
+  hourlyRate: number;
+  available: boolean;
+  bio: string;
+  completedJobs: number;
+}
+
+export const workers: Worker[] = [
+  {
+    id: 'w1',
+    name: 'Mang Pedring Santos',
+    avatar: 'https://i.pravatar.cc/150?u=pedring',
+    rating: 4.8,
+    reviewCount: 45,
+    verified: true,
+    skills: ['Plumbing', 'Pipe Repair', 'Faucet Installation'],
+    experience: '12 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 250,
+    available: true,
+    bio: 'Experienced plumber serving Tuy for over a decade. Specializes in residential plumbing repairs and installation.',
+    completedJobs: 230,
+  },
+  {
+    id: 'w2',
+    name: 'Ka Rolly Mercado',
+    avatar: 'https://i.pravatar.cc/150?u=rolly',
+    rating: 4.6,
+    reviewCount: 32,
+    verified: true,
+    skills: ['Electrical', 'Wiring', 'Lighting'],
+    experience: '8 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 300,
+    available: true,
+    bio: 'Licensed electrician with expertise in home wiring, outlet repairs, and lighting installation.',
+    completedJobs: 175,
+  },
+  {
+    id: 'w3',
+    name: 'Aling Nena Cruz',
+    avatar: 'https://i.pravatar.cc/150?u=nena',
+    rating: 4.9,
+    reviewCount: 58,
+    verified: true,
+    skills: ['Cleaning', 'Deep Cleaning', 'Sanitation'],
+    experience: '6 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 180,
+    available: true,
+    bio: 'Professional cleaner using eco-friendly products. Your home will sparkle!',
+    completedJobs: 310,
+  },
+  {
+    id: 'w4',
+    name: 'Totoy Mendoza',
+    avatar: 'https://i.pravatar.cc/150?u=totoy',
+    rating: 4.5,
+    reviewCount: 27,
+    verified: false,
+    skills: ['Carpentry', 'Furniture', 'Woodwork'],
+    experience: '5 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 280,
+    available: true,
+    bio: 'Skilled carpenter for all your furniture repair and custom woodwork needs.',
+    completedJobs: 120,
+  },
+  {
+    id: 'w5',
+    name: 'Manuel Rivera',
+    avatar: 'https://i.pravatar.cc/150?u=manuel',
+    rating: 4.7,
+    reviewCount: 39,
+    verified: true,
+    skills: ['Painting', 'Wall Repair', 'Waterproofing'],
+    experience: '10 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 220,
+    available: false,
+    bio: 'Expert painter with keen attention to detail. Residential and commercial painting.',
+    completedJobs: 195,
+  },
+  {
+    id: 'w6',
+    name: 'Jun de Guzman',
+    avatar: 'https://i.pravatar.cc/150?u=jun',
+    rating: 4.4,
+    reviewCount: 21,
+    verified: true,
+    skills: ['Appliance Repair', 'AC Service', 'Refrigeration'],
+    experience: '7 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 350,
+    available: true,
+    bio: 'Certified appliance technician. Fast and reliable repair service for all major brands.',
+    completedJobs: 160,
+  },
+  {
+    id: 'w7',
+    name: 'Karding Flores',
+    avatar: 'https://i.pravatar.cc/150?u=karding',
+    rating: 4.3,
+    reviewCount: 15,
+    verified: false,
+    skills: ['Gardening', 'Landscaping', 'Lawn Care'],
+    experience: '4 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 200,
+    available: true,
+    bio: 'Passionate gardener turning your outdoor space into a paradise.',
+    completedJobs: 85,
+  },
+  {
+    id: 'w8',
+    name: 'Ricky Torres',
+    avatar: 'https://i.pravatar.cc/150?u=ricky',
+    rating: 4.8,
+    reviewCount: 52,
+    verified: true,
+    skills: ['Moving', 'Hauling', 'Delivery'],
+    experience: '9 years',
+    serviceArea: 'Tuy, Batangas',
+    hourlyRate: 250,
+    available: true,
+    bio: 'Strong and careful mover. Your belongings are in safe hands.',
+    completedJobs: 280,
+  },
+];
